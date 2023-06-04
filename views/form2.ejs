@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        .item{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        
+        <form action = "/" method = "post">
+            <div class="mb-3 item">
+                <h1>CONTACT US</h1>
+            </div>
+
+            <div class="mb-3 item">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3 item">
+                <label for="exampleInputEmail1" class="form-label">Name</label>
+                <input type="name" class="form-control" id="fname" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3 item">
+                <label for="exampleInputEmail1" class="form-label">Phone number</label>
+                <input type="number" class="form-control" id="number" aria-describedby="emailHelp">
+            </div>
+
+            <div class="input-group item">
+                <span class="input-group-text">Suggestions</span>
+                <textarea class="form-control" aria-label="With textarea" id = "suggestion"></textarea>
+            </div>
+
+            <div class="input-group item">
+                <span class="input-group-text">Feedback</span>
+                <textarea class="form-control" aria-label="With textarea" id = "feedback"></textarea>
+            </div>
+
+            <div class="mb-3 item">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+
+
+        </form>
+    </div>
+    
+</body>
+</html>
